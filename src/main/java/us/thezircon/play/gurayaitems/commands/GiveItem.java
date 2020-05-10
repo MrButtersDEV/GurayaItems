@@ -20,7 +20,7 @@ public class GiveItem implements TabExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
-        if (!sender.hasPermission("guraya.items.use")){
+        if (!sender.hasPermission("gurayaitems.use")){
             sender.sendMessage(ChatColor.translateAlternateColorCodes('&', plugin.getConfig().getString("Messages.msgNoPerm")));
             return false;
         }
