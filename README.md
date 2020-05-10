@@ -1,6 +1,22 @@
 # GurayaItems
  Custom items plugin made by request!
 
+
+[![Discord](https://img.shields.io/badge/Discord-BUTTERFIELD8%233907-blue)](https://discord.gg/nnC7nkT)
+
+### Commands:
++ Give Command: `/gitem` [item] [amt]
+    - [amt] Only works for SmokeBomb as its the only item players should have multiple of!
+    - Aliases: `/gitems`, `/gi`
+    - Permission: `gurayaitems.use`
+    - Console Format:
+       + `gi [player] [item] [amt]     `
++ Reload Command: `/guraya-reload`
+    - Permission: `gurayaitems.reload`
+
+
+
+### Config"
 ```yaml
 #Chaning this data can break any existing items players may have.
 #Sounds: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
