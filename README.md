@@ -16,7 +16,7 @@
 
 
 
-### Config"
+### Config:
 ```yaml
 #Chaning this data can break any existing items players may have.
 #Sounds: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
