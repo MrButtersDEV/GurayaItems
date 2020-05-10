@@ -1,0 +1,15 @@
+name: GurayaItems
+version: ${project.version}
+main: us.thezircon.play.gurayaitems.GurayaItems
+prefix: GurayaItems
+depend: [ProtocolLib]
+authors: [BUTTERFIELD8]
+api-version: 1.13
+description: Custom items!
+website: Discord.com @BUTTERFIELD8#3907
+commands:
+  gitems:
+    description: Gives user custom item
+    aliases: [gi, gitem]
+  guraya-reload:
+    description: Reloads plugin
