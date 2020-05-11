@@ -2,6 +2,7 @@ package us.thezircon.play.gurayaitems.items;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
+import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import us.thezircon.play.gurayaitems.GurayaItems;
@@ -22,7 +23,9 @@ public class GrapplingHook {
             lore.add(ChatColor.translateAlternateColorCodes('&', string));
         }
         meta.setLore(lore);
-
+        meta.setUnbreakable(true);
+        meta.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
+        meta.addItemFlags(ItemFlag.HIDE_UNBREAKABLE);
         grapplingHook.setItemMeta(meta);
         return grapplingHook;
     }

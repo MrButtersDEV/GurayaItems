@@ -23,8 +23,9 @@ public class BriefcaseMinigun {
             lore.add(ChatColor.translateAlternateColorCodes('&', string));
         }
         meta.setLore(lore);
+        meta.setUnbreakable(true);
         meta.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
-
+        meta.addItemFlags(ItemFlag.HIDE_UNBREAKABLE);
         minigun.setItemMeta(meta);
         return minigun;
     }
