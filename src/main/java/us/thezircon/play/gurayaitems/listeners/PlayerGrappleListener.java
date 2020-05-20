@@ -53,7 +53,6 @@ public class PlayerGrappleListener implements Listener {
 
     @EventHandler
     public void onFall(EntityDamageEvent e) {
-        System.out.println("RUN");
         if (e.getEntity() instanceof Player) {
             Player player = (Player) e.getEntity();
             if (doFallDamage.containsKey(player)) {
