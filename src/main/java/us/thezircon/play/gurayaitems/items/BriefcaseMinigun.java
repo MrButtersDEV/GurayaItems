@@ -26,6 +26,7 @@ public class BriefcaseMinigun {
         meta.setUnbreakable(true);
         meta.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
         meta.addItemFlags(ItemFlag.HIDE_UNBREAKABLE);
+        meta.setCustomModelData(999002);
         minigun.setItemMeta(meta);
         return minigun;
     }

@@ -23,8 +23,9 @@ public class GrapplingHook {
             lore.add(ChatColor.translateAlternateColorCodes('&', string));
         }
         meta.setLore(lore);
-        ///////////
-        meta.setUnbreakable(true);
+        if (plugin.getConfig().getBoolean("GrapplingHook.Unbreakable")) {
+            meta.setUnbreakable(true);
+        }
         meta.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
         meta.addItemFlags(ItemFlag.HIDE_UNBREAKABLE);
         grapplingHook.setItemMeta(meta);

@@ -1,5 +1,5 @@
 name: GurayaItems
-version: 1.1-SNAPSHOT
+version: 1.2-SNAPSHOT
 main: us.thezircon.play.gurayaitems.GurayaItems
 prefix: GurayaItems
 depend: [ProtocolLib]
