@@ -78,6 +78,7 @@ Tracker:
 
 GrapplingHook:
   Cooldown: 15
+  Unbreakable: true
   Name: "&bGrappling Hook"
   Lore:
     - ""
