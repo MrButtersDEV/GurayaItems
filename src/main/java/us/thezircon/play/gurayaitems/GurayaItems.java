@@ -1,7 +1,5 @@
 package us.thezircon.play.gurayaitems;
 
-import com.comphenix.protocol.ProtocolLibrary;
-import com.comphenix.protocol.ProtocolManager;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Entity;
@@ -16,7 +14,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public final class GurayaItems extends JavaPlugin {
-    private ProtocolManager protocolManager;
+  //  private ProtocolManager protocolManager;
 
     public HashMap<Player, Player> trackingInfo = new HashMap<>();
     public HashMap<Player, ArrayList<Entity>> glowingInfo = new HashMap<>();
@@ -28,7 +26,7 @@ public final class GurayaItems extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        protocolManager = ProtocolLibrary.getProtocolManager();
+      //  protocolManager = ProtocolLibrary.getProtocolManager();
         //Config
         getConfig().options().copyDefaults();
         saveDefaultConfig(); // Saves Config.

@@ -2,7 +2,6 @@ name: GurayaItems
 version: ${project.version}
 main: us.thezircon.play.gurayaitems.GurayaItems
 prefix: GurayaItems
-depend: [ProtocolLib]
 authors: [BUTTERFIELD8]
 api-version: 1.13
 description: Custom items!
